@@ -48,7 +48,8 @@ const startSliding = (type) =>{
 
     if (type === "prev") {
         active.classList.add("next");
-        
+        last.classList.add("active");
+        next = last.previousElementSibling
         return
     }
 
