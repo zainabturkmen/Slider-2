@@ -40,6 +40,10 @@ const startSliding = (type) =>{
     active.classList.remove(["active"]);
     last.classList.remove(["last"]);
     next.classList.remove(["next"]);
+
+    active.classList.add("last");
+    last.classList.add("next");
+    next.classList.add("active");
 };
 
 nextBtn.addEventListener("click", ()=>{
