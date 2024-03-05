@@ -39,7 +39,7 @@ const startSliding = (type) =>{
     let next = active.nextElementSibling;
     active.classList.remove(["active"]);
     last.classList.remove(["last"]);
-    next.classList.remove(["next"])
+    next.classList.remove(["next"]);
 };
 
 nextBtn.addEventListener("click", ()=>{
