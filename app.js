@@ -13,7 +13,7 @@ container.innerHTML = people.map((person, slideIndex) => {
     // more logic later
     let position = "next";
     return `
-        <article class="slide">
+        <article class="slide ${position}">
             <img src="${img}" class="img" alt="jane doe">
             <h4>${name}</h4>
             <p class="title">${job}</p>
