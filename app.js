@@ -33,3 +33,6 @@ container.innerHTML = people.map((person, slideIndex) => {
     </article>`
 }).join("");
 
+const startSliding = (type) =>{
+    console.log("hello world");
+};
