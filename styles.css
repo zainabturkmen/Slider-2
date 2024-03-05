@@ -253,3 +253,7 @@ h4 {
   height: 450px;
   /* overflow: hidden; */
 }
+
+.slide{
+  position: absolute;
+}
