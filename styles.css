@@ -246,3 +246,9 @@ h4 {
 }
 
 /* MORE CSS FOR JS */
+
+.slide-container{
+  display: flex;
+  position: relative;
+  height: 450px;
+}
