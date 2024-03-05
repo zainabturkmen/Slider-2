@@ -37,6 +37,9 @@ const startSliding = (type) =>{
     const active = document.querySelector (".active");
     const last = document.querySelector (".last");
     let next = active.nextElementSibling;
+    active.classList.remove(["active"]);
+    last.classList.remove(["last"])
+    next.classList.remove(["next"])
 };
 
 nextBtn.addEventListener("click", ()=>{
