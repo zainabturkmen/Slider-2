@@ -15,6 +15,9 @@ container.innerHTML = people.map((person, slideIndex) => {
     if (slideIndex === 0) {
         position = "active";
     }
+    if (slideIndex === people.length -1) {
+        position = "last";
+    }
     return `
         <article class="slide ${position}">
             <img src="${img}" class="img" alt="jane doe">
