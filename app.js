@@ -37,9 +37,21 @@ const startSliding = (type) =>{
     const active = document.querySelector (".active");
     const last = document.querySelector (".last");
     let next = active.nextElementSibling;
+
+    if(!next){
+        next = container.firstElementChild
+    }
+
     active.classList.remove(["active"]);
     last.classList.remove(["last"]);
     next.classList.remove(["next"]);
+
+    if (type === "prev") {
+        active.classList.add("next");
+        
+        return
+    }
+
 
     active.classList.add("last");
     last.classList.add("next");
