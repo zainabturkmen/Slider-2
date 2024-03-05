@@ -7,6 +7,8 @@ const prevBtn = document.querySelector(".prev-btn");
 
 
 // set slides
-container.innerHTML = people.map((person) => {
+container.innerHTML = people.map((person, slideIndex) => {
+
+    const{img, name, job, text} = person;
     return ``
 })
