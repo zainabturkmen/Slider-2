@@ -43,4 +43,4 @@ nextBtn.addEventListener("click", ()=>{
 
 prevBtn.addEventListener("click", ()=>{
     startSliding()
-})
+});
