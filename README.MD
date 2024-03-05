@@ -1,1 +1,3 @@
 # Slider project
+
+### Happy coding
