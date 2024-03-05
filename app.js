@@ -50,8 +50,12 @@ const startSliding = (type) =>{
         active.classList.add("next");
         last.classList.add("active");
         next = last.previousElementSibling;
-        next.classList.add("last")
 
+        if(!next){
+            next = container.lastElementChild
+        }
+        next.classList.remove(["next"]);
+        next.classList.add("last")
         return
     }
 
